@@ -260,3 +260,274 @@ body .admin-no-estimate,body .admin-small-note { color:#574c43;font-size:13px;fo
   .ui-pagination > div { margin-left:auto; }
 }
 @media(prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto !important;animation:none !important;transition:none !important; } }
+
+
+/* ──────────────────────────────────────────────────────────────────
+   Global visibility & legibility overrides
+   Ensures all text across the project is readable with solid colors
+   and sufficient font sizes. No new text or words are added.
+   ────────────────────────────────────────────────────────────────── */
+
+/* ── Homepage & shared layout ── */
+body .announcement { font-size:14px; color:#ffede7; }
+body .announcement-location { font-size:14px; }
+body .logo-caption { font-size:10px; letter-spacing:1.8px; color:var(--color-brand); }
+body .navigation { font-size:15px; }
+body .language-button { font-size:14px; }
+body .nav-order { font-size:13px; }
+body .eyebrow { font-size:12px; letter-spacing:1.8px; }
+body .hero-copy > p { font-size:15px; color:#4e443c; }
+body .hero-footnote { font-size:13px; color:#4e443c; }
+body .image-label { font-size:12px; color:white; text-shadow:0 1px 3px rgba(0,0,0,.5); }
+body .round-seal span { font-size:10px; letter-spacing:1.2px; }
+body .photo-caption { font-size:14px; }
+body .ways-intro .eyebrow { font-size:11px; }
+body .ways h2 { font-size:26px; }
+body .method-content strong { font-size:15px; }
+body .method-content > span { font-size:13px; color:#4e443c; }
+body .method-content small { font-size:11px; color:#4e443c; }
+body .food-badge { font-size:11px; letter-spacing:.8px; color:#3d2a1e; background:#fff9f0; }
+body .food-info h3 { font-size:16px; }
+body .food-info p { font-size:13px; color:#4e443c; }
+body .price { font-size:20px; }
+body .price small { font-size:11px; color:#4e443c; }
+body .sample-note { font-size:13px; color:#4e443c; }
+body .hospitality-stamp span { font-size:11px; letter-spacing:1.2px; }
+body .hospitality-copy p { font-size:14px; color:#4e443c; }
+body .hospitality-signoff { font-size:13px; }
+body .find-copy > p { font-size:14px; }
+body .find-copy > small { font-size:12px; color:#4e443c; }
+body .location-line span { font-size:13px; color:#4e443c; }
+body .location-line strong { font-size:15px; }
+body .map-center > span:not(.map-pin) { font-size:13px; color:#4e443c; }
+body .map-center .map-tag { font-size:11px !important; letter-spacing:.8px; color:#3d2a1e; }
+body .map-center strong { font-size:18px; }
+body .closing > p { font-size:22px; }
+body .closing .text-button { font-size:14px; }
+
+/* ── Footer ── */
+body .footer-top > div { font-size:14px; color:#e0cfcb; }
+body .footer-top p { font-size:14px; }
+body .footer-title { font-size:12px; letter-spacing:1.4px; color:#d5b5ae; }
+body footer button { font-size:14px; color:#e0cfcb; }
+body .footer-muted { font-size:13px; color:#d5b5ae; }
+body .footer-bottom { font-size:13px; color:#d5b5ae; }
+body .footer-bottom button { font-size:13px; }
+
+/* ── Modals ── */
+body .swatches { font-size:13px; }
+body .language-option small { font-size:13px; color:#4e443c; }
+body .language-feedback { font-size:14px; }
+body .symbol-preview { font-size:14px; }
+
+/* ── Menu page ── */
+body .menu-welcome p { font-size:14px; color:#4e443c; }
+body .product-subname { font-size:13px !important; color:#574c43 !important; }
+body .photo-pending { font-size:9px; letter-spacing:.5px; color:#5e4d3e; }
+body .selected-label { font-size:11px; }
+body .details-dot { color:#4e443c; }
+body .draft-category-note { font-size:12px; color:#574c43; }
+body .translation-review { font-size:13px; }
+body .browse-tip { font-size:13px; color:#574c43; }
+body .currency-note { font-size:13px; color:#574c43; }
+body .price-reminder { font-size:11px; color:#574c43; }
+body .results-heading > div > span { font-size:13px; color:#574c43; }
+body .product-section-heading p { font-size:13px; }
+body .product-section-heading > span:last-child { font-size:13px; }
+body .product-section-heading h3 { font-size:18px; }
+body .section-icon { width:38px; height:38px; }
+body .menu-help strong { font-size:14px; }
+body .menu-help p { font-size:13px; color:#4e443c; }
+body .menu-service-strip strong { font-size:14px; }
+body .menu-service-strip small { font-size:13px; color:#4e443c; }
+body .menu-footer > div > span { font-size:13px; }
+body .menu-footer a:not(.logo) { font-size:13px; }
+
+/* ── Bottom cart bar ── */
+body .bottom-cart > div > span { font-size:12px; }
+body .bottom-cart strong { font-size:22px; }
+body .bottom-cart button { font-size:14px; }
+body .cart-toast { font-size:13px; }
+
+/* ── Checkout & order flow ── */
+body .drawer-heading h2 { font-size:32px; }
+body .cart-line h3 { font-size:16px; }
+body .cart-mode > div { font-size:14px; }
+body .item-details-price { font-size:30px; }
+body .item-details-price span { font-size:13px; color:#574c43; }
+body .state-preview-title { font-size:18px; }
+body .menu-empty h3 { font-size:26px; }
+body .menu-empty p { font-size:14px; color:#4e443c; }
+
+/* ── Verification banner ── */
+body .verification-banner strong { font-size:14px; }
+body .verification-banner p { font-size:13px; color:#574c43; }
+
+/* ──────────────────────────────────────────────────────────────────
+   Admin dashboard visibility overrides
+   ────────────────────────────────────────────────────────────────── */
+
+/* Sidebar */
+body .admin-sidebar-brand .logo-caption { font-size:10px; letter-spacing:1.4px; }
+body .admin-sidebar-brand > span { font-size:10px; letter-spacing:1.4px; color:#6d5f55; }
+body .admin-sidebar nav button { font-size:14px; font-weight:650; color:#3d3530; }
+body .admin-sidebar nav button > small { font-size:11px; }
+body .admin-nav-label { font-size:11px; letter-spacing:1.4px; color:#5a4d43; font-weight:800; }
+body .admin-location strong { font-size:13px; }
+body .admin-location small { font-size:11px; color:#574c43; }
+body .admin-sidebar-bottom > a,
+body .admin-sidebar-bottom > button { font-size:13px; color:#574c43; }
+body .admin-sidebar-bottom strong { font-size:13px; }
+body .admin-sidebar-bottom small { font-size:11px; color:#574c43; }
+body .admin-avatar { font-size:13px; }
+
+/* Topbar */
+body .admin-topbar > div:first-child { font-size:14px; color:#4e443c; }
+body .admin-topbar > div:first-child strong { color:var(--color-ink); }
+body .admin-demo-pill { font-size:10px; letter-spacing:1px; color:#6b4f1e; }
+body .admin-profile-button > span:nth-child(2) { font-size:13px; }
+body .admin-profile-button small { font-size:11px; color:#574c43; }
+
+/* Prototype banner */
+body .admin-prototype-banner { font-size:13px; color:#6b5432; }
+body .admin-prototype-banner a { font-size:13px; }
+
+/* Page headings */
+body .admin-heading-eyebrow { font-size:11px; letter-spacing:1.2px; color:#6d5f55; }
+body .admin-page-heading p { font-size:14px; color:#4e443c; }
+body .admin-page-heading .button { font-size:13px; }
+
+/* Preview controls */
+body .admin-preview-controls > span { font-size:12px; color:#574c43; }
+body .admin-preview-controls select { font-size:13px; color:#3d3530; }
+body .admin-preview-controls small { font-size:12px; color:#574c43; }
+
+/* Overview section */
+body .admin-overview-greeting > span { font-size:11px; letter-spacing:.8px; color:#574c43; }
+body .admin-live-dot { background:#6b8b3d; }
+body .admin-overview-greeting > small { font-size:13px; color:#574c43; }
+
+/* Stat cards */
+body .admin-stat-card > div > span:first-child { font-size:14px; color:#3d3530; font-weight:700; }
+body .admin-stat-card > strong > small { font-size:13px; color:#574c43; }
+body .admin-stat-card > p { font-size:13px; color:#574c43; }
+
+/* Panels */
+body .admin-panel-heading h2 { font-size:16px; }
+body .admin-panel-heading p { font-size:13px; color:#574c43; }
+body .chart-legend { font-size:12px; color:#574c43; }
+body .chart-axis { font-size:11px; fill:#574c43; }
+body .chart-footnote { font-size:12px; color:#574c43; }
+body .admin-attention-panel > button strong { font-size:14px; }
+body .admin-attention-panel > button small { font-size:12px; color:#574c43; }
+body .admin-service-summary > span { font-size:13px; color:#3d3530; }
+body .admin-no-estimate { font-size:13px; color:#574c43; }
+
+/* Period filter */
+body .admin-period-filter select { font-size:13px; }
+
+/* Tables */
+body .admin-table th { font-size:12px; color:#2e2620; font-weight:800; letter-spacing:.3px; }
+body .admin-table td { font-size:14px; color:#3d3530; }
+body .admin-table td > strong { font-size:14px; color:#2e2620; }
+body .admin-table td small { font-size:12px; color:#574c43; }
+body .admin-order-link { font-size:14px; color:#2e2620; }
+body .admin-badge { font-size:12px; font-weight:650; padding:6px 10px; }
+body .admin-order-type { font-size:13px; color:#4e443c; }
+body .admin-item-summary { font-size:13px; }
+
+/* Filter tabs */
+body .admin-filter-tabs button { font-size:14px; color:#574c43; }
+body .admin-filter-tabs button.active { color:var(--color-brand); }
+body .admin-filter-tabs small { font-size:11px; }
+
+/* Actions and search */
+body .admin-text-action,
+body .admin-table-action { font-size:13px; }
+body .admin-search input { font-size:14px; }
+body .admin-section-toolbar > p { font-size:14px; }
+body .admin-section-toolbar .button { font-size:13px; }
+body .admin-section-toolbar select { font-size:13px; }
+body .admin-small-note { font-size:13px; color:#574c43; }
+
+/* Inline notes & feedback */
+body .admin-inline-note { font-size:13px; color:#6b5432; }
+body .admin-feedback { font-size:14px; }
+body .admin-workspace-footnote { font-size:11px; color:#6d5f55; }
+
+/* Kitchen board */
+body .kitchen-column > h2 { font-size:16px; }
+body .kitchen-column > h2 > small { font-size:12px; }
+body .kitchen-card > div:first-child > span:last-child { font-size:12px; color:#574c43; }
+body .kitchen-card h3 { font-size:16px; }
+body .kitchen-item { font-size:15px; }
+body .kitchen-note { font-size:13px; }
+body .kitchen-hold { font-size:12px; color:#574c43; }
+body .kitchen-card-footer .button { font-size:13px; }
+
+/* Category list */
+body .admin-category-list strong { font-size:15px; }
+body .admin-category-list small { font-size:13px; color:#574c43; }
+
+/* Table & QR cards */
+body .admin-table-card > p { font-size:11px; color:#574c43; }
+body .admin-table-card > small { font-size:12px; color:#574c43; }
+body .admin-table-card > .button { font-size:13px; }
+body .table-card-actions button { font-size:12px; color:#574c43; }
+
+/* Settings */
+body .admin-settings-section > p { font-size:14px; color:#4e443c; }
+body .admin-configuration-row { font-size:14px; }
+body .admin-report-row { font-size:14px; }
+body .admin-report-note { font-size:13px; color:#574c43; }
+
+/* Order detail */
+body .admin-detail-timeline li { font-size:13px; color:#574c43; }
+body .admin-detail-explanation { font-size:14px; color:#4e443c; }
+body .order-detail-method small { font-size:12px; color:#574c43; }
+body .admin-customer-card span { font-size:13px; color:#574c43; }
+body .admin-customer-card p { font-size:13px; color:#574c43; }
+
+/* Forms */
+body .admin-form > p { font-size:14px; color:#4e443c; }
+body .admin-form label { font-size:14px; }
+body .admin-form label input,
+body .admin-form label textarea,
+body .admin-form label select { font-size:15px; }
+body .admin-form .admin-checkbox { font-size:14px; }
+body .admin-form-error { font-size:14px; }
+body .admin-item-preview small { font-size:11px; color:#574c43; }
+
+/* Notifications */
+body .admin-notification-list strong { font-size:14px; }
+body .admin-notification-list small { font-size:13px; color:#574c43; }
+
+/* ── Contact page ── */
+body .contact-field > small { font-size:13px; color:#574c43; }
+body .contact-privacy { font-size:13px; color:#574c43; }
+body .contact-form-card > p { font-size:14px; }
+
+/* ── Location / coverage ── */
+body .location-field-error { font-size:14px; }
+body .coverage-current-area { font-size:14px; }
+body .location-design-states summary { font-size:14px; }
+body .location-design-states p { font-size:13px; color:#574c43; }
+body .location-design-states button { font-size:13px; }
+
+/* ── Owner coverage preview ── */
+body .owner-preview-notice p { font-size:13px; color:#574c43; }
+body .owner-preview-notice strong { font-size:14px; }
+body .draft-zone-card dt { font-size:13px; color:#574c43; }
+body .draft-zone-card dd { font-size:14px; }
+body .draft-zone-card span { font-size:11px; }
+body .local-save-notice { font-size:13px; color:#574c43; }
+body .zones-empty p { font-size:14px; color:#574c43; }
+body .zone-enabled-toggle { font-size:14px; }
+
+/* ── Ensure all global muted text is readable ── */
+body [class*="muted"],
+body [class*="note"],
+body [class*="caption"],
+body [class*="footnote"] {
+  color: #4e443c;
+}
